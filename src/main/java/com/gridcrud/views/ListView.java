@@ -10,7 +10,7 @@ import org.vaadin.crudui.crud.impl.GridCrud;
 
 import java.util.Collection;
 
-@Route("")
+@Route(value = "" , layout = MainLayout.class)
 public class ListView extends VerticalLayout {
 
     public ListView(StudentService service) {
